@@ -4,7 +4,7 @@ pipeline {
         stage('clone git') {
               steps {
                     sh "chmod u+x helloworld.py"
-                    git 'https://github.com/BThangaraju/helloworld.git'
+                    git 'https://github.com/BThangaraju/Jenkins.git'
                     }
         }
         stage('Build Code') {
