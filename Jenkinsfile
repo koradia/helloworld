@@ -3,6 +3,7 @@ pipeline {
      stages {
         stage('clone git') {
               steps {
+                    sh "chmod u+x helloworld.py"
                     git 'https://github.com/koradia/helloworld.git'
                     }
         }
