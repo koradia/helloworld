@@ -4,7 +4,7 @@ import unittest
 
 from prog1 import summation
 
-class Testsum(unittest.Testcase):
+class Testsum(unittest.TestCase):
   def test_list_int(self):
     """
     test case to add 2 nos.
