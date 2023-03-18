@@ -10,6 +10,7 @@ pipeline {
             steps {
 //                 sh "chmod u+x prog1.py"
 //                 sh "./prog1.py"
+                echo "tyui"
             }
         }
      stage('Test Code') {
